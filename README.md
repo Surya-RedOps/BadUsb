@@ -1,6 +1,7 @@
-**Pi-Zero-2W-BadUSB**
+## Pi-Zero-2W-BadUSB
 
 **Platform**: Raspberry Pi Zero 2 W
+
 **OS**: Raspberry Pi OS Lite (64-bit)
 
 
