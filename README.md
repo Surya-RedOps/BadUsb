@@ -32,9 +32,10 @@ Unlike traditional micro-controllers (like the ATmega32U4 used in the Rubber Duc
 1. **Enable Hardware Overlays:**
    Add `dtoverlay=dwc2` to `/boot/firmware/config.txt`.
    Add `dwc2` and `libcomposite` to `/etc/modules`.
-2. **Workspace:**
+    Add `modules-load=dwc2,g_hid` after rootwait to `/boot/firmware/cmdline.txt`.
+3. **Workspace:**
    The project is hosted in `/home/astrabot/BadUSB_Project/`.
-3. **Deployment:**
+4. **Deployment:**
    Run `sudo ./setup_gadget.sh` followed by `sudo python3 ducky_runner.py`.
 
 ## Legal Disclaimer
